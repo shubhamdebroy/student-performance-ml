@@ -4,7 +4,7 @@
 
 Access the deployed API here:
 
-https://your-url.onrender.com/docs
+https://student-performance-api-40f6.onrender.com/docs
 
 ## Project Overview
 
