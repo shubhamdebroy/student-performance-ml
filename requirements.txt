@@ -5,3 +5,7 @@ seaborn
 scikit-learn
 imbalanced-learn
 jupyter
+fastapi
+uvicorn
+joblib
+pydantic

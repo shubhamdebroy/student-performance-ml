@@ -15,5 +15,5 @@ venv/
 .vscode/
 
 # Model files (optional)
-*.pkl
+# *.pkl
 *.joblib

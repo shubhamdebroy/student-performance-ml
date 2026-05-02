@@ -161,6 +161,38 @@ Output:
 
 ---
 
+## API Usage
+
+### Endpoint:
+
+POST /predict
+
+### Example Input:
+
+{
+"gender": "male",
+"race_ethnicity": "group C",
+"parental_level_of_education": "bachelor's degree",
+"lunch": "standard",
+"test_preparation_course": "none"
+}
+
+### Example Output:
+
+{
+"predicted_grade": "A",
+"probabilities": {
+"A": 0.52,
+"B": 0.21,
+"C": 0.09,
+"D": 0.12,
+"F": 0.02
+},
+"recommendations": ["Complete a test preparation course"]
+}
+
+---
+
 ### Important Finding
 
 > More complex models do not guarantee better performance
@@ -202,7 +234,6 @@ Output:
 
 - Add real behavioral features (study hours, habits)
 - Try advanced models (XGBoost)
-- Deploy using FastAPI
 
 ---
 
