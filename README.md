@@ -1,5 +1,11 @@
 # Smart Student Performance Predictor & Recommender System
 
+## 🌐 Live API
+
+Access the deployed API here:
+
+https://your-url.onrender.com/docs
+
 ## Project Overview
 
 This project is an end-to-end Machine Learning system designed to:
